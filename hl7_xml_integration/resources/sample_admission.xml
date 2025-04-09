@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdmissionMessage>
+    <!-- Patient Demographics -->
+    <PatientInformation>
+        <Identifiers>
+            <MedicalRecordNumber>12345</MedicalRecordNumber>
+        </Identifiers>
+        <PersonalDetails>
+            <LastName>SMITH</LastName>
+            <FirstName>JOHN</FirstName>
+            <MiddleName>ROBERT</MiddleName>
+            <BirthDate>19800101</BirthDate>
+            <Gender>M</Gender>
+        </PersonalDetails>
+        <ContactInformation>
+            <Address>
+                <Street>123 MAIN ST</Street>
+                <City>ANYTOWN</City>
+                <State>ST</State>
+                <PostalCode>12345</PostalCode>
+                <Country>USA</Country>
+            </Address>
+            <HomePhone>555-555-1234</HomePhone>
+        </ContactInformation>
+    </PatientInformation>
+    
+    <!-- Visit Information -->
+    <VisitDetails>
+        <SequenceNumber>1</SequenceNumber>
+        <PatientType>INPATIENT</PatientType>
+        <Location>
+            <Unit>3WEST</Unit>
+            <RoomNumber>301</RoomNumber>
+            <BedId>A</BedId>
+            <Campus>MAIN</Campus>
+        </Location>
+        <AdmissionCategory>EMERGENCY</AdmissionCategory>
+        <AttendingClinician>
+            <ProviderId>DOC123</ProviderId>
+            <LastName>JONES</LastName>
+            <FirstName>SARAH</FirstName>
+        </AttendingClinician>
+        <EncounterNumber>VN12345</EncounterNumber>
+        <AdmissionDateTime>20240224120000</AdmissionDateTime>
+    </VisitDetails>
+    
+    <!-- Clinical Information -->
+    <ClinicalInformation>
+        <SequenceNumber>1</SequenceNumber>
+        <CodingStandard>ICD10</CodingStandard>
+        <DiagnosisCode>J18.9</DiagnosisCode>
+        <DiagnosisDescription>PNEUMONIA</DiagnosisDescription>
+        <DiagnosisDateTime>20240224120000</DiagnosisDateTime>
+        <DiagnosisCategory>ADMITTING</DiagnosisCategory>
+    </ClinicalInformation>
+</AdmissionMessage>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PatientAdmission>
+    <Id>12345</Id>
+    <Name>
+        <Family>Doe</Family>
+        <Given>John</Given>
+    </Name>
+    <Gender>Male</Gender>
+    <ContactNo>+1234567890</ContactNo>
+</PatientAdmission>
