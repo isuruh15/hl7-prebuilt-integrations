@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "path": "hl7_adt_integration"
+    },
+    {
+      "path": "hl7_listener_integration"
+    },
+    {
+      "path": "hl7_xml_integration"
+    }
+  ],
+  "settings": {}
+}
+
